@@ -63,3 +63,15 @@ h1{
     justify-self: center;
 }
 
+#output{
+    height: 25px;
+    width: 270px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 3;
+    justify-self: center;
+    /* align-self: center; */
+    border: 2px solid black;
+}
+
