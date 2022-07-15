@@ -9,3 +9,17 @@ h1{
     font-size: 40px;
     text-decoration: 2px underline blue;
 }
+
+#container{
+    height: 200px;
+    width: 550px;
+    display: grid;
+    margin: 0 auto;
+    border: 5px solid ;
+    background-color: blue;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 50px 1fr;
+    position: absolute;
+    top: 150px;
+    left: 350px;
+}
