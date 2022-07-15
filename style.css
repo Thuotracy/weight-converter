@@ -46,7 +46,20 @@ h1{
     left: 13px; */
     color: white;
     background-color: black;
-    border: 2px dotted fuchsia;
+    border: 2px dotted blue;
+    justify-self: center;
+}
+
+#feet{
+    height: 30px;
+    width: 126px;
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    color: white;
+    background-color: black;
+    border: 2px dotted blue;
     justify-self: center;
 }
 
