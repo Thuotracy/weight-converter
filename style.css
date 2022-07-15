@@ -35,3 +35,18 @@ h1{
     border: 2px solid black;
 }
 
+#kg{
+    height: 30px;
+    width: 126px;
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+    /* position: relative;
+    left: 13px; */
+    color: white;
+    background-color: black;
+    border: 2px dotted fuchsia;
+    justify-self: center;
+}
+
