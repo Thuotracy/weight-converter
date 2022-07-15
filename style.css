@@ -8,6 +8,7 @@ h1{
     text-align: center;
     font-size: 40px;
     text-decoration: 2px underline blue;
+    font-weight: 800;
 }
 
 #container{
@@ -23,3 +24,14 @@ h1{
     top: 150px;
     left: 350px;
 }
+
+#input{
+    height: 25px;
+    width: 270px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    justify-self: center;
+    align-self: center;
+    border: 2px solid black;
+}
+
